@@ -203,23 +203,23 @@ li { margin-bottom: 0.35rem; }
   padding-top: calc(var(--navbar-h) + 3.75rem);
   padding-bottom: 5.5rem;
   background:
-    radial-gradient(circle 760px at 18% -20%, rgba(255, 170, 150, 0.22) 0%, rgba(255, 170, 150, 0) 65%),
-    linear-gradient(115deg, #93261b 0%, var(--accent-dark) 52%, var(--accent-deep) 100%);
+    radial-gradient(circle 700px at 85% -10%, rgba(255, 170, 150, 0.22) 0%, rgba(255, 170, 150, 0) 65%),
+    linear-gradient(160deg, #93261b 0%, var(--accent-dark) 52%, var(--accent-deep) 100%);
   text-align: center;
   color: #fff;
   position: relative;
   overflow: hidden;
 }
 
-/* Subtle cross pattern over the hero gradient */
+/* Topographic contour lines over the hero gradient */
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36'%3E%3Cpath d='M18 14v8M14 18h8' stroke='white' stroke-opacity='0.11' stroke-width='1.2'/%3E%3C/svg%3E");
-  background-size: 36px 36px;
-  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.35) 0%, #000 45%, #000 100%);
-          mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.35) 0%, #000 45%, #000 100%);
+  background: url("hero-topo.svg") center / cover no-repeat;
+  /* Fade the lines behind the name so the text stays readable */
+  -webkit-mask-image: radial-gradient(ellipse 45% 55% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, #000 100%);
+          mask-image: radial-gradient(ellipse 45% 55% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, #000 100%);
   pointer-events: none;
 }
 
@@ -235,12 +235,12 @@ li { margin-bottom: 0.35rem; }
   pointer-events: none;
 }
 
-.hero-hex {
+.hero-ring {
   position: absolute;
   left: 50%;
   top: 48px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   transform: translate(-50%, -50%);
   z-index: -1;
   pointer-events: none;
@@ -715,7 +715,7 @@ li { margin-bottom: 0.35rem; }
   }
   .hero::after { height: 40px; }
   .avatar { width: 80px; height: 80px; margin-bottom: 2.25rem; }
-  .hero-hex { top: 40px; width: 150px; height: 150px; }
+  .hero-ring { top: 40px; width: 130px; height: 130px; }
   .hero-cta { flex-direction: column; align-items: center; }
   .btn { width: 100%; max-width: 260px; justify-content: center; }
 
