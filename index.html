@@ -6,7 +6,7 @@
   <title>Iván Nieto Abarca — Full Stack Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
@@ -26,6 +26,10 @@
 
   <nav class="navbar" id="navbar">
     <div class="nav-container">
+      <a class="nav-brand" href="#top" aria-label="Inicio">
+        <span class="nav-mark" aria-hidden="true">IN</span>
+        <span class="nav-name">Iván Nieto</span>
+      </a>
       <div class="nav-right">
         <ul class="nav-links">
           <li><a href="#about">Sobre mí</a></li>
@@ -36,43 +40,51 @@
         </ul>
         <button class="theme-btn" id="themeBtn" aria-label="Cambiar modo claro/oscuro">
           <span class="theme-icon theme-icon--light" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.050 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.050a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/></svg>
           </span>
           <span class="theme-icon theme-icon--dark" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.460c0 4.021 3.278 7.277 7.318 7.277.527 0 1.040-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.710 0 4.266 2.114 1.312 5.124.060A.752.752 0 0 1 6 .278z"/></svg>
           </span>
         </button>
       </div>
     </div>
   </nav>
 
-  <header class="hero">
+  <header class="hero" id="top">
     <div class="hero-inner">
-      <svg class="hero-ring" viewBox="0 0 150 150" fill="none" aria-hidden="true">
-        <circle cx="75" cy="75" r="70" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1.4"/>
-        <circle cx="75" cy="75" r="62" stroke="#ffb4a8" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="2 6" stroke-linecap="round"/>
-      </svg>
-      <div class="avatar">
-        <img
-          src="images/profile.jpg"
-          alt="Iván Nieto Abarca"
-          class="avatar-photo"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
-        >
-        <span class="avatar-initials" aria-hidden="true">IN</span>
+      <div class="hero-text">
+        <p class="hero-kicker">Full Stack Developer · Madrid</p>
+        <h1>Iván Nieto Abarca</h1>
+        <p class="hero-tagline">Construyo paneles, APIs y herramientas internas con Next.js, TypeScript, Fastify y MongoDB. En constante formación.</p>
+        <div class="hero-cta">
+          <a class="btn btn-white" href="files/Ivan_Nieto_Abarca_CV.pdf" download>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
+            Descargar CV
+          </a>
+          <a class="btn btn-outline-white" href="https://www.linkedin.com/in/ivannietoabarca/" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.850 3.370-1.850 3.601 0 4.267 2.370 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.200 24 24 23.227 24 22.271V1.729C24 .774 23.200 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn btn-outline-white" href="https://github.com/niet8" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.070 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.230.957-.266 1.983-.399 3.003-.404 1.020.005 2.047.138 3.006.404 2.291-1.552 3.297-1.230 3.297-1.230.653 1.653.242 2.874.118 3.176.770.840 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.430.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+        </div>
       </div>
-      <h1>Iván Nieto Abarca</h1>
-      <p class="hero-tagline">Full Stack Developer, en constante formación.</p>
-      <p class="hero-sub">Next.js · TypeScript · Fastify · MongoDB · Madrid</p>
-      <div class="hero-cta">
-        <a class="btn btn-white" href="files/Ivan_Nieto_Abarca_CV.pdf" download>
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
-          Descargar CV
-        </a>
-        <a class="btn btn-outline-white" href="https://www.linkedin.com/in/ivannietoabarca/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          LinkedIn
-        </a>
+      <div class="hero-photo">
+        <svg class="hero-ring" viewBox="0 0 150 150" fill="none" aria-hidden="true">
+          <circle cx="75" cy="75" r="72" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1"/>
+          <circle cx="75" cy="75" r="66" stroke="#ffb4a8" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="1.5 5" stroke-linecap="round"/>
+        </svg>
+        <div class="avatar">
+          <img
+            src="images/profile.jpg"
+            alt="Iván Nieto Abarca"
+            class="avatar-photo"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+          >
+          <span class="avatar-initials" aria-hidden="true">IN</span>
+        </div>
       </div>
     </div>
   </header>
@@ -81,25 +93,23 @@
     <div class="container">
 
       <section id="about" class="section reveal">
-        <h2 class="section-title">Sobre mí</h2>
-        <p class="about-text">Desarrollador full stack con Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM). En Cuimo trabajo en el panel de administración con Next.js, TypeScript y Tailwind CSS y en la API REST con Fastify, Mongoose y MongoDB, y me encargo de la gestión IT de la empresa: dispositivos, seguridad y soporte al equipo. He construido desde cero un módulo de gestión del inventario IT que sustituyó el seguimiento manual en hojas de cálculo, mantengo al día las dependencias del proyecto e imparto formaciones de ciberseguridad al equipo. Llegué al desarrollo después de varios años de atención al cliente en retail, una experiencia que me ayuda a entender qué necesita quien usa lo que construyo. Sigo formándome de forma constante, con especial interés en el desarrollo asistido por IA.</p>
+        <h2 class="section-title"><span class="section-num">01</span>Sobre mí</h2>
+        <p class="about-text">Desarrollador full stack con Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM). En Cuimo trabajo en el panel de administración con Next.js, TypeScript y Tailwind CSS y en la API REST con Fastify, Mongoose y MongoDB, y me encargo de la gestión IT de la empresa: dispositivos, seguridad y soporte al equipo. He construido desde cero un módulo de gestión del inventario IT que sustituyó el seguimiento manual en hojas de cálculo.</p>
+        <p class="about-text">Llegué al desarrollo después de siete años de atención al cliente en retail, una experiencia que me ayuda a entender qué necesita quien usa lo que construyo. Sigo formándome de forma constante, con especial interés en el desarrollo asistido por IA.</p>
       </section>
 
       <section id="experience" class="section reveal">
-        <h2 class="section-title">Experiencia</h2>
-        <div class="timeline">
+        <h2 class="section-title"><span class="section-num">02</span>Experiencia</h2>
+        <div class="entries">
 
-          <div class="timeline-item reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-body">
-              <div class="timeline-meta">
-                <img src="images/logos/cuimo.jpeg" alt="Cuimo" class="company-logo">
-                <div class="timeline-meta-text">
-                  <h3 class="timeline-role">Full Stack &amp; Responsable de IT</h3>
-                  <span class="timeline-company">Cuimo</span>
-                </div>
-                <time class="timeline-date">May 2026 – Presente</time>
+          <article class="entry reveal">
+            <img src="images/logos/cuimo.jpeg" alt="Cuimo" class="company-logo">
+            <div class="entry-main">
+              <div class="entry-head">
+                <h3 class="entry-role">Full Stack &amp; Responsable de IT</h3>
+                <time class="entry-date">May 2026 — Presente</time>
               </div>
+              <p class="entry-org">Cuimo · Móstoles</p>
               <ul>
                 <li>Desarrollo full stack del panel de administración (Next.js, TypeScript, Tailwind CSS) y de la API REST (Fastify, Mongoose, MongoDB).</li>
                 <li>Construcción desde cero de un módulo de gestión y control del inventario IT integrado en el panel de administración, eliminando el seguimiento manual en hojas de cálculo.</li>
@@ -111,233 +121,116 @@
                 <span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Tailwind CSS</span><span class="tag">Fastify</span><span class="tag">Mongoose</span><span class="tag">MongoDB</span><span class="tag">Git</span>
               </div>
             </div>
-          </div>
+          </article>
 
-          <div class="timeline-item reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-body">
-              <div class="timeline-meta">
-                <img src="images/logos/epoint.png" alt="Epoint" class="company-logo logo-light-bg">
-                <div class="timeline-meta-text">
-                  <h3 class="timeline-role">Web Software Developer (prácticas)</h3>
-                  <span class="timeline-company">Epoint — Gestión de Negocios Digitales</span>
-                </div>
-                <time class="timeline-date">Sep 2025 – Dic 2025</time>
+          <article class="entry reveal">
+            <img src="images/logos/epoint.png" alt="Epoint" class="company-logo logo-light-bg">
+            <div class="entry-main">
+              <div class="entry-head">
+                <h3 class="entry-role">Web Software Developer (prácticas)</h3>
+                <time class="entry-date">Sep 2025 — Dic 2025</time>
               </div>
+              <p class="entry-org">Epoint — Gestión de Negocios Digitales · Remoto</p>
               <ul>
                 <li>Desarrollo de 2 sitios web completos (barbería y peluquería canina) con WordPress, PHP y MySQL, desde el diseño en Canva hasta la puesta en producción.</li>
-                <li>Plugins personalizados en PHP para extender WordPress y adaptarlo a los requisitos específicos de cada cliente.</li>
+                <li>Creación de plugins personalizados en PHP para extender WordPress y adaptarlo a los requisitos específicos de cada cliente.</li>
               </ul>
               <div class="stack-tags">
                 <span class="tag">WordPress</span><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Canva</span>
               </div>
             </div>
-          </div>
+          </article>
 
-          <div class="timeline-item reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-body">
-              <div class="timeline-meta">
-                <img src="images/logos/tous.png" alt="TOUS" class="company-logo logo-light-bg">
-                <div class="timeline-meta-text">
-                  <h3 class="timeline-role">Dependiente</h3>
-                  <span class="timeline-company">TOUS Jewelry</span>
-                </div>
-                <time class="timeline-date">Dic 2021 – Jul 2025</time>
+          <article class="entry reveal">
+            <img src="images/logos/tous.png" alt="TOUS" class="company-logo logo-light-bg">
+            <div class="entry-main">
+              <div class="entry-head">
+                <h3 class="entry-role">Dependiente</h3>
+                <time class="entry-date">Dic 2021 — Jul 2025</time>
               </div>
+              <p class="entry-org">TOUS Jewelry · Madrid</p>
               <ul>
                 <li>Atención a un alto volumen de clientes diarios, identificando sus necesidades y asesorando sobre características, materiales y usos de cada producto.</li>
-                <li>Servicio postventa (reparaciones, garantías y mantenimiento) durante más de 3 años, resolviendo incidencias de forma autónoma.</li>
-                <li>Apertura de nuevas tiendas: control de stock, visual merchandising y formación de nuevos empleados en caja y ventas.</li>
+                <li>Gestión del servicio postventa (reparaciones, garantías y mantenimiento) durante más de 3 años, resolviendo incidencias de forma autónoma.</li>
+                <li>Participación en la apertura de nuevas tiendas: control de stock, visual merchandising y formación de nuevos empleados en caja y ventas.</li>
               </ul>
             </div>
-          </div>
+          </article>
 
-          <div class="timeline-item reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-body">
-              <div class="timeline-meta">
-                <img src="images/logos/antony-morato.png" alt="Antony Morato" class="company-logo logo-light-bg">
-                <div class="timeline-meta-text">
-                  <h3 class="timeline-role">Dependiente</h3>
-                  <span class="timeline-company">Antony Morato</span>
-                </div>
-                <time class="timeline-date">Dic 2018 – Dic 2021</time>
+          <article class="entry reveal">
+            <img src="images/logos/antony-morato.png" alt="Antony Morato" class="company-logo logo-light-bg">
+            <div class="entry-main">
+              <div class="entry-head">
+                <h3 class="entry-role">Dependiente</h3>
+                <time class="entry-date">Dic 2018 — Dic 2021</time>
               </div>
+              <p class="entry-org">Antony Morato · Madrid</p>
               <ul>
-                <li>Atención al cliente, asesoramiento de producto y gestión postventa.</li>
+                <li>Atención personalizada al cliente, asesoramiento de producto y gestión del servicio postventa.</li>
               </ul>
             </div>
-          </div>
+          </article>
 
         </div>
       </section>
 
       <section id="education" class="section reveal">
-        <h2 class="section-title">Formación</h2>
-        <div class="timeline">
-
-          <div class="timeline-item reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-body">
-              <div class="timeline-meta">
-                <div class="timeline-meta-text">
-                  <h3 class="timeline-role">Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
-                  <span class="timeline-company">Davante Medac · Madrid</span>
-                </div>
-                <time class="timeline-date">Oct 2023 – Dic 2025</time>
+        <h2 class="section-title"><span class="section-num">03</span>Formación</h2>
+        <div class="entries entries--compact">
+          <article class="entry entry--plain reveal">
+            <div class="entry-main">
+              <div class="entry-head">
+                <h3 class="entry-role">Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                <time class="entry-date">Oct 2023 — Dic 2025</time>
               </div>
+              <p class="entry-org">Davante Medac · Madrid</p>
             </div>
-          </div>
-
-          <div class="timeline-item reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-body">
-              <div class="timeline-meta">
-                <div class="timeline-meta-text">
-                  <h3 class="timeline-role">CS50's Introduction to Programming with Python</h3>
-                  <span class="timeline-company">Harvard Online</span>
-                </div>
-                <time class="timeline-date">Jun 2024 – Nov 2024</time>
+          </article>
+          <article class="entry entry--plain reveal">
+            <div class="entry-main">
+              <div class="entry-head">
+                <h3 class="entry-role">CS50's Introduction to Programming with Python</h3>
+                <time class="entry-date">Jun 2024 — Nov 2024</time>
               </div>
+              <p class="entry-org">Harvard Online</p>
             </div>
-          </div>
-
-          <div class="timeline-item reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-body">
-              <div class="timeline-meta">
-                <div class="timeline-meta-text">
-                  <h3 class="timeline-role">CS50's Introduction to Cybersecurity</h3>
-                  <span class="timeline-company">Harvard Online</span>
-                </div>
-                <time class="timeline-date">Jul 2024 – Sep 2024</time>
+          </article>
+          <article class="entry entry--plain reveal">
+            <div class="entry-main">
+              <div class="entry-head">
+                <h3 class="entry-role">CS50's Introduction to Cybersecurity</h3>
+                <time class="entry-date">Jul 2024 — Sep 2024</time>
               </div>
+              <p class="entry-org">Harvard Online</p>
             </div>
-          </div>
-
+          </article>
         </div>
       </section>
 
       <section id="skills" class="section reveal">
-        <h2 class="section-title">Habilidades</h2>
-        <div class="skills-grid">
-
-          <div class="skill-category">
-            <h3>Frontend</h3>
-            <div class="skill-items">
-              <div class="skill-item">
-                <img src="https://cdn.simpleicons.org/nextdotjs/000000" alt="Next.js" width="32" height="32" class="icon-dark">
-                <span>Next.js</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React" width="32" height="32">
-                <span>React</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="32" height="32">
-                <span>Tailwind CSS</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="32" height="32">
-                <span>JavaScript</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt="HTML" width="32" height="32">
-                <span>HTML</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt="CSS" width="32" height="32">
-                <span>CSS</span>
-              </div>
-            </div>
+        <h2 class="section-title"><span class="section-num">04</span>Habilidades</h2>
+        <dl class="skills">
+          <div class="skill-row">
+            <dt>Frontend</dt>
+            <dd><span class="chip">Next.js</span><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">Tailwind CSS</span><span class="chip">HTML5</span><span class="chip">CSS3</span></dd>
           </div>
-
-          <div class="skill-category">
-            <h3>Backend</h3>
-            <div class="skill-items">
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32">
-                <span>TypeScript</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" width="32" height="32">
-                <span>Node.js</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/fastify/fastify-original.svg" alt="Fastify" width="32" height="32" class="icon-dark">
-                <span>Fastify</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/php/php-original.svg" alt="PHP" width="32" height="32">
-                <span>PHP</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" width="32" height="32">
-                <span>Python</span>
-              </div>
-            </div>
+          <div class="skill-row">
+            <dt>Backend</dt>
+            <dd><span class="chip">Node.js</span><span class="chip">Fastify</span><span class="chip">Python</span><span class="chip">PHP</span><span class="chip">MongoDB</span><span class="chip">Mongoose</span><span class="chip">MySQL</span><span class="chip">Firebase</span><span class="chip">WordPress</span></dd>
           </div>
-
-          <div class="skill-category">
-            <h3>Bases de datos &amp; CMS</h3>
-            <div class="skill-items">
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="32" height="32">
-                <span>MongoDB</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" alt="MySQL" width="32" height="32">
-                <span>MySQL</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/wordpress/wordpress-plain.svg" alt="WordPress" width="32" height="32" class="icon-dark">
-                <span>WordPress</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/firebase/firebase-plain.svg" alt="Firebase" width="32" height="32">
-                <span>Firebase</span>
-              </div>
-            </div>
+          <div class="skill-row">
+            <dt>Herramientas</dt>
+            <dd><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Claude</span><span class="chip">GitHub Copilot</span><span class="chip">Canva</span></dd>
           </div>
-
-          <div class="skill-category">
-            <h3>Herramientas &amp; IA</h3>
-            <div class="skill-items">
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt="Git" width="32" height="32">
-                <span>Git</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/github/github-original.svg" alt="GitHub" width="32" height="32" class="icon-dark">
-                <span>GitHub</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.simpleicons.org/claude/D97757" alt="Claude" width="32" height="32">
-                <span>Claude</span>
-              </div>
-              <div class="skill-item">
-                <img src="https://cdn.simpleicons.org/githubcopilot/000000" alt="GitHub Copilot" width="32" height="32" class="icon-dark">
-                <span>Copilot</span>
-              </div>
-            </div>
+          <div class="skill-row">
+            <dt>Cursos</dt>
+            <dd><span class="chip">Iniciación a la IA — BIG school</span><span class="chip">Desarrollo con IA</span><span class="chip">midudev: Python, scraping y HTML</span></dd>
           </div>
-
-          <div class="skill-category">
-            <h3>Idiomas &amp; Certificaciones</h3>
-            <div class="cert-list">
-              <span class="cert-badge">🇪🇸 Español — Nativo</span>
-              <span class="cert-badge">🇬🇧 Inglés — B1</span>
-              <span class="cert-badge">🤖 Iniciación a la IA — BIG school</span>
-              <span class="cert-badge">🤖 Iniciación al desarrollo con IA</span>
-              <span class="cert-badge">💻 Certificaciones midudev</span>
-              <span class="cert-badge">🐍 Python</span>
-              <span class="cert-badge">🕷️ Scraping con Python</span>
-              <span class="cert-badge">🌐 HTML</span>
-            </div>
+          <div class="skill-row">
+            <dt>Idiomas</dt>
+            <dd><span class="chip">Español — Nativo</span><span class="chip">Inglés — B1</span></dd>
           </div>
-
-        </div>
+        </dl>
       </section>
 
     </div>
@@ -345,24 +238,25 @@
 
   <footer id="contact" class="footer">
     <div class="footer-inner">
-      <p class="footer-name">Iván Nieto Abarca</p>
-      <p class="footer-role">Full Stack Developer · Móstoles, Madrid</p>
+      <div class="footer-intro">
+        <p class="footer-kicker"><span class="section-num">05</span>Contacto</p>
+        <p class="footer-name">¿Hablamos?</p>
+        <p class="footer-role">Iván Nieto Abarca · Full Stack Developer · Móstoles, Madrid</p>
+      </div>
       <div class="footer-links">
         <a href="mailto:ivanrubio8enero@gmail.com">
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg>
           ivanrubio8enero@gmail.com
         </a>
-        <a href="https://www.linkedin.com/in/ivannietoabarca/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          LinkedIn
-        </a>
         <a href="tel:+34634233559">
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328z"/></svg>
           (+34) 634 23 35 59
         </a>
+        <a href="https://www.linkedin.com/in/ivannietoabarca/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/niet8" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
       </div>
-      <p class="footer-copy">© 2026 Iván Nieto Abarca</p>
     </div>
+    <p class="footer-copy">© 2026 Iván Nieto Abarca</p>
   </footer>
 
   <script>
