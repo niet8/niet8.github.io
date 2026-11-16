@@ -9,7 +9,7 @@ Este repositorio contiene el portfolio público de Iván Nieto Abarca, publicado
 - LinkedIn: https://linkedin.com/in/ivannietoabarca
 
 **Extracto**:
-Desarrollador full stack junior con Grado Superior en DAM y experiencia práctica en entornos de producción. Actualmente en Cuimo, donde desarrollo el panel de administración con Next.js, TypeScript y Tailwind CSS y la API REST con Fastify, Mongoose y MongoDB, y me encargo de la gestión IT de la empresa: dispositivos, seguridad y soporte al equipo. Construí desde cero un módulo de gestión del inventario IT que sustituyó el seguimiento manual en hojas de cálculo, mantengo al día las dependencias del proyecto e imparto formaciones de ciberseguridad al equipo. Antes de dedicarme al desarrollo trabajé varios años en atención al cliente en retail, lo que me ayuda a entender qué necesita quien usa lo que construyo.
+Desarrollador full stack junior con Grado Superior en DAM y experiencia práctica en entornos de producción. En Cuimo desarrollé el panel de administración con Next.js, TypeScript y Tailwind CSS y la API REST con Fastify, Mongoose y MongoDB, y me encargué de la gestión IT de la empresa: dispositivos, seguridad y soporte al equipo. Construí desde cero un módulo de gestión del inventario IT que sustituyó el seguimiento manual en hojas de cálculo, mantuve al día las dependencias del proyecto e impartí formaciones de ciberseguridad al equipo. Antes de dedicarme al desarrollo trabajé varios años en atención al cliente en retail, lo que me ayuda a entender qué necesita quien usa lo que construyo.
 
 **Habilidades principales**:
 - Frontend: Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML5, CSS3
@@ -29,7 +29,7 @@ Desarrollador full stack junior con Grado Superior en DAM y experiencia práctic
 
 **Experiencia**:
 
-- Cuimo — Full Stack & Responsable de IT — May 2026 – Presente
+- Cuimo — Full Stack & Responsable de IT — Ene 2026 – Nov 2026
 	- Desarrollo full stack en el panel de administración (Next.js, TypeScript, Tailwind CSS) y en la API REST (Fastify, Mongoose, MongoDB).
 	- Construcción desde cero de un módulo de gestión y control del inventario IT, eliminando el seguimiento manual en hojas de cálculo.
 	- Gestión de las actualizaciones de dependencias, implantación de políticas de seguridad en dispositivos corporativos y formación al equipo en ciberseguridad.
