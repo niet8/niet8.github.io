@@ -32,7 +32,9 @@ Desarrollador full stack junior con Grado Superior en DAM y experiencia práctic
 - Cuimo — Full Stack & Responsable de IT — Ene 2026 – Nov 2026
 	- Desarrollo full stack en el panel de administración (Next.js, TypeScript, Tailwind CSS) y en la API REST (Fastify, Mongoose, MongoDB).
 	- Construcción desde cero de un módulo de gestión y control del inventario IT, eliminando el seguimiento manual en hojas de cálculo.
-	- Gestión de las actualizaciones de dependencias, implantación de políticas de seguridad en dispositivos corporativos y formación al equipo en ciberseguridad.
+	- Refuerzo de la seguridad de la aplicación: cabeceras de seguridad HTTP, revisión de dependencias vulnerables, limitación de peticiones en endpoints públicos y control de acceso en rutas internas.
+	- Implantación de políticas de seguridad en dispositivos corporativos y concienciación en ciberseguridad: guía antiphishing para la plantilla y simulacro de phishing en la empresa.
+	- Más de 60 pull requests en 7 repositorios y más de 40 tickets llevados de principio a fin, con funcionalidades en ventas, compras, taller, recambios y transporte.
 	- Stack: Next.js, TypeScript, Tailwind CSS, Fastify, Mongoose, MongoDB, Git
 
 - Epoint — Prácticas, Web Software Developer — Sep 2025 – Dic 2025
