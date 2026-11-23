@@ -15,7 +15,7 @@ Desarrollador full stack junior con Grado Superior en DAM y experiencia práctic
 - Frontend: Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML5, CSS3
 - Backend: Node.js, Fastify, Python, PHP, MongoDB (Mongoose), MySQL, Firebase, WordPress
 - Herramientas: Git, GitHub, Claude, GitHub Copilot, Canva
-- Idiomas: Español (nativo), Inglés (B1)
+- Idiomas: Español (nativo), Inglés (B2)
 
 **Certificaciones y formación**:
 - CS50's Introduction to Programming with Python — Harvard Online (2024)
